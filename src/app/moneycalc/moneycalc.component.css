@@ -1,0 +1,31 @@
+ body{
+  background: #EBECE7;
+}
+.header{
+  background-color: grey;
+  height: 60px;
+  width: 100%;
+  margin-bottom: 20px;
+}
+.container {
+  background: #fff;
+  max-width: 750px;
+}
+.padding-top-20{
+  padding-top: 20px;
+}
+.exchange-rate-arrows {
+  font-size: 50px;
+}
+.form-control{
+  height: 50px;
+  padding-right: 5px;
+  
+}
+.error-msg{
+  color:red;
+}
+.title {
+ 	text-align: center;
+  padding-top: 15px;
+} 
