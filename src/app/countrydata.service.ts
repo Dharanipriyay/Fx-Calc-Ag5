@@ -6,8 +6,7 @@ const httpOptions = {
 }
 
 @Injectable({
-  providedIn: 'root',
-  HttpClient 
+  providedIn: 'root'
 })
 export class CountrydataService {
 
