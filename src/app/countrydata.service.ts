@@ -6,8 +6,7 @@ const httpOptions = {
 }
 
 @Injectable({
-  providedIn: 'root',
-  HttpClient 
+  providedIn: 'root'
 })
 export class CountrydataService {
 
@@ -19,5 +18,8 @@ export class CountrydataService {
 
   	getCurrencies(){
   	 return this.http.get('./assets/data/currency.json');
-  	}
+		}
+		getExrate(cNames:String){
+			return this.http.get('http://free.currencyconverterapi.com/api/v5/convert?q='+cNames+'&compact=y');
+		 }
 }
